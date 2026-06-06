@@ -1,16 +1,202 @@
-# React + Vite
+# AWS Cloud Deployment Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Enterprise Security Engineering Lab
 
-Currently, two official plugins are available:
+This project is part of my long-term Enterprise Security Engineering Lab journey.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal is to gain hands-on experience across multiple disciplines including:
 
-## React Compiler
+- Cloud Engineering
+- Cloud Security
+- DevOps
+- DevSecOps
+- System Administration
+- Network Security
+- Application Security
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This lab demonstrates a React application deployed to Amazon S3 Static Website Hosting.
+
+Architecture:
+
+Developer
+↓
+GitHub
+↓
+Amazon S3
+↓
+Static Website Hosting
+↓
+Internet Users
+
+---
+
+## Technologies Used
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+### Cloud Platform
+
+- Amazon Web Services (AWS)
+- Amazon S3
+
+### Version Control
+
+- Git
+- GitHub
+
+---
+
+## Skills Practiced
+
+### Developer
+
+- React Fundamentals
+- Component Design
+- Frontend Deployment
+
+### Cloud Engineer
+
+- Amazon S3
+- Static Website Hosting
+- Object Storage
+- Bucket Management
+
+### Cloud Security
+
+- Bucket Policy
+- Public Access Configuration
+- Website Exposure Concepts
+
+### DevOps
+
+- Git Workflow
+- Source Control
+- Deployment Lifecycle
+
+---
+
+## Learning Objectives
+
+- Deploy React application to AWS
+- Understand S3 bucket concepts
+- Understand object storage
+- Learn static website hosting
+- Learn Git and GitHub workflow
+- Build cloud deployment experience
+
+---
+
+## Current Architecture
+
+Developer
+↓
+GitHub
+↓
+Amazon S3
+↓
+Internet
+
+---
+
+## Planned Roadmap
+
+### Project #9
+
+CloudFront CDN + HTTPS
+
+Developer
+↓
+GitHub
+↓
+S3
+↓
+CloudFront
+↓
+Internet
+
+---
+
+### Project #10
+
+CI/CD Pipeline using GitHub Actions
+
+Developer
+↓
+GitHub
+↓
+GitHub Actions
+↓
+Amazon S3
+
+---
+
+### Project #11
+
+Docker Fundamentals
+
+Developer
+↓
+Docker
+↓
+Container
+
+---
+
+### Project #12
+
+Amazon ECS Fargate
+
+Developer
+↓
+GitHub
+↓
+ECR
+↓
+ECS
+↓
+ALB
+
+---
+
+### Project #13
+
+AWS WAF Integration
+
+Internet
+↓
+AWS WAF
+↓
+ALB
+↓
+ECS
+
+---
+
+### Project #14
+
+DevSecOps Pipeline
+
+GitHub
+↓
+Security Scanning
+↓
+Build
+↓
+Deploy
+
+---
+
+## Author
+
+Alpie Asilo
+
+Enterprise Security Engineering Lab
